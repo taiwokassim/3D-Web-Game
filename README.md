@@ -74,8 +74,42 @@ R3F provides a declarative way to build 3D scenes using React's component-based 
 
 Make sure you have the following installed:
 
-- Node.js
-- Yarn
+- Node.js (v14 or higher)
+- npm (comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/taiwokassim/3D-Web-Game.git
+   cd 3D-Web-Game
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+Start the development server:
+```bash
+npm run dev
+```
+
+The application will open in your browser at `http://localhost:5173` (or another port if 5173 is in use).
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
+```
+
+To preview the production build locally:
+```bash
+npm run preview
+```
 
 ## 3D Models Credits
 
